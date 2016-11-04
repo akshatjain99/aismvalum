@@ -2,10 +2,59 @@
 <html>
 	<head>
 		<title>Homepage</title>
-		<?php include'includes/head.php' ; ?>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="css/semantic.min.css"/>
+		<link rel="stylesheet" href="css/main.css"/>
+		<linl rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.12.0/css/semantic.min.css"/>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="js/semantic.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
 	</head>
 	<body rel="0" class="pusher">
-		<?php include'includes/header.php' ; ?>
+	<!-- Header -->
+		<!-- Sidebar Menu -->
+		<div id="side" class="ui vertical inverted sidebar menu">
+  			<a class="item" href="index.php">Home</a>
+ 			<a class="item">About Us</a>
+  			<a class="item" href="involve.php">Get Involved</a>
+  			<a class="item">Alum Meet 2016</a>
+  			<a class="item">Login</a>
+  			<a class="item">Signup</a>
+		</div>
+		<!-- Page Contents -->
+		<div class="pusher">
+  			<div class="ui inverted vertical masthead center aligned segment">
+    			<div class="ui container">
+      				<div class="ui large secondary inverted pointing menu">
+        				<a class="toc item">
+          					<i class="sidebar icon"></i>
+        				</a>
+        				<div id="menu" class="ui large secondary inverted pointing menu">
+          					<a class="item" href="index.php">Home</a>
+          					<a class="item" >About Us</a>
+          					<a class="item" href="involve.php">Get Involved</a>
+      					 	<a class="item">Alum Meet 2016</a>
+        				</div>
+        				<div class="right item">
+          					<a class="ui inverted">
+              					<i class="icon big facebook"></i>
+          					</a>
+          					<a class="ui inverted">
+              					<i class="icon big youtube"></i>
+          					</a>
+        				</div>
+      				</div>
+    			</div>
+				<div class="ui text container">
+      				<h1 class="ui inverted header">
+        				AISMV ALUM ASSOCIATION
+      				</h1>
+      				<h2>Literally the best thing our school has ever done.</h2>
+     			</div>
+			</div>
+		</div>
+<!-- Actual Content -->
+	<div class="content">
 		<div class="ui vertical stripe segment">
     		<div class="ui middle aligned stackable grid container">
       			<div class="row">
@@ -66,9 +115,25 @@
       	<div id="involvebtn">
       		<a class="ui huge button">Find out how you can get involved</a>
       	</div>
-		
-		<?php include'includes/footer.php' ; ?>
+      	<!-- Footer -->
+	</div>
+	<div class="ui inverted vertical footer segment">
+ 		<div class="ui container">
+    		<div class="ui stackable inverted divided grid">
+      			<div class="column">
+      				<a href="#">Home</a>
+      			</div>
+      			<div class="two wide column">
+      				<a href="#">Get Involved</a>
+      			</div>
+      			<div class="three wide column">
+      				<a href="#">Alum Meet 2016</a>
+      			</div>
+      			<div class="ten wide column">
+      				<p>Designed and Maintained by Sarthak Batraand Akshat Jain for AISMV Alum Association</p>
+      			</div>
+      		</div>
+    	</div>
+	</div>
 	</body>
-
-
 </html>
