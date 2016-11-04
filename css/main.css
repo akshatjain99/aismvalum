@@ -46,11 +46,16 @@ body .content{
   text-align: center;
   padding: 20px 0px;
 }
+#hometwo {
+  margin:0 auto;
+}
 
-
-#homeone p, #hometwo p, #homethree p{
+#hometwo {
+  padding: 20px;
+}
+#homeone p, #hometwo .description, #homethree p, #homezero p{
   line-height: 180%;
-  
+  font-size: 1.33em;
 }
 
 #involvebtn {
@@ -60,6 +65,7 @@ body .content{
 
 #meet {
   margin-bottom: 20px;
+
 }
     .ui.vertical.stripe h3 {
       font-size: 2em;
