@@ -1,20 +1,3 @@
-<!-- Following Menu -->
-<div class="ui large top fixed hidden menu">
-  <div id="following" class="ui container">
-    <a class="item" href="index.php">Home</a>
-    <a class="item">About Us</a>
-    <a class="item" href="involve.php">Get Involved</a>
-    <a class="item">Alum Meet 2016</a>
-    <div class="right menu">
-      <div class="item">
-        <a class="ui button">Log in</a>
-      </div>
-      <div class="item">
-        <a class="ui primary button">Sign Up</a>
-      </div>
-    </div>
-  </div>
-</div>
 
 <!-- Sidebar Menu -->
 <div id="side" class="ui vertical inverted sidebar menu">
