@@ -48,7 +48,7 @@ body .content{
 }
 
 
-#homeone p, #hometwo p{
+#homeone p, #hometwo p, #homethree p{
   line-height: 180%;
   
 }
@@ -58,7 +58,9 @@ body .content{
   margin: 10px;
 }
 
-
+#meet {
+  margin-bottom: 20px;
+}
     .ui.vertical.stripe h3 {
       font-size: 2em;
     }
@@ -72,6 +74,10 @@ body .content{
     .ui.vertical.stripe p {
       font-size: 1.33em;
     }
+
+.ui.footer.segment{
+  margin-top: 5px;
+}
 
     @media only screen and (max-width: 700px) {
       .ui.fixed.menu {
