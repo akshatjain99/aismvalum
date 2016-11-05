@@ -11,12 +11,22 @@ body .content{
   padding: 20px;
 }
 
+#mainimage{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  height: 530px;
+ 
+ 
+}
+
  .hidden.menu {
       display: none;
     }
 
     .masthead.segment {
-      min-height: 700px;
+      min-height: 50px;
       padding: 1em 0em;
     }
     .masthead .logo.item img {
@@ -59,8 +69,8 @@ body .content{
 }
 
 #involvebtn {
-  text-align: center;
-  margin: 10px;
+  
+  margin:0 auto;
 }
 
 #meet {
