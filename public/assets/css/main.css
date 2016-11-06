@@ -1,0 +1,64 @@
+/* Home CSS Starts Here */
+/* Home CSS Ends Here */
+/* About CSS Starts Here */
+/* About CSS Ends Here */
+/* Contact CSS Starts Here */
+/* Contact CSS Ends Here */
+/* Meet CSS Starts Here */
+/* Meet CSS Ends Here */
+/* Involve CSS Starts Here */
+/* Involve CSS Ends Here */
+@media screen and (max-width: 700px) {
+  .main.menu {
+    display: none; }
+  .sidebar-icon {
+    display: block; } }
+
+@media screen and (min-width: 701px) {
+  .sidebar-icon {
+    display: none; } }
+
+* {
+  box-sizing: border-box; }
+
+html,
+body {
+  font-size: 16px; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'helvetica', arial;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 200; }
+
+/*Header*/
+header {
+  min-height: 100%;
+  background-color: #999999;
+  margin-bottom: 2rem; }
+
+.sidebar-icon {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  cursor: pointer; }
+
+.hidden {
+  display: none; }
+
+.masthead {
+  min-height: 350px;
+  padding: 1em 0em;
+  /*background: url("../assets/images/team2015.jpg");
+background-position: right;
+background-size: 100% auto;
+*/ }
+
+#home .main.menu > .item {
+  color: white; }
+
+/*Footer*/
+footer {
+  margin-top: 2rem;
+  background-color: orange;
+  min-width: 100%; }

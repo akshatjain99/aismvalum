@@ -1,3 +1,8 @@
+@import "sass/home";
+@import "sass/about";
+@import "sass/contact";
+@import "sass/meet";
+@import "sass/involve";
 @media screen and (max-width: 700px) {
     .main.menu {
         display: none;
@@ -58,42 +63,8 @@ background-size: 100% auto;
 */
 }
 
-#homepage .main.menu > .item
- {
+#home .main.menu > .item {
     color: white;
-}
-
-
-/*MAIN CONTENT*/
-
-#homeone,
-#hometwo {
-    text-align: center;
-    padding: 20px 0px;
-}
-
-#hometwo {
-    margin: 0 auto;
-}
-
-#hometwo {
-    padding: 20px;
-}
-
-#homeone p,
-#hometwo .description,
-#homethree p,
-#homezero p {
-    line-height: 180%;
-    font-size: 1.33em;
-}
-
-#involvebtn {
-    margin: 0 auto;
-}
-
-#meet {
-    margin-bottom: 20px;
 }
 
 
