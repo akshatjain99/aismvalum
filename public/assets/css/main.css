@@ -46,7 +46,8 @@ header {
 .sidebar-icon {
   padding-top: 1rem;
   padding-left: 1rem;
-  cursor: pointer; }
+  cursor: pointer;
+  color: white; }
 
 .hidden {
   display: none; }
@@ -58,9 +59,6 @@ header {
 background-position: right;
 background-size: 100% auto;
 */ }
-
-#home .main.menu > .item {
-  color: white; }
 
 /*Footer*/
 footer {
