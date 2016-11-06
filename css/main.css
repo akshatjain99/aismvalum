@@ -1,120 +1,106 @@
-body{
-  margin:0;
-  padding: 0;
-  font-family: 'helvetica', arial;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 200;
+@media screen and (max-width: 700px) {
+    .main.menu {
+        display: none;
+    }
+    .sidebar-icon {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    .sidebar-icon {
+        display: none;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'helvetica', arial;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 200;
 }
 
 
-body .content{
-  padding: 20px;
+/*Header*/
+
+header {
+    min-height: 100%;
+    background-color: #999999;
+    margin-bottom: 2rem;
 }
 
-#mainimage{
-  width: 100%;
-  position: absolute;
-  top: 0;
-  z-index: -1;
-  height: 530px;
- 
- 
+.sidebar-icon {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    cursor: pointer;
 }
 
- .hidden.menu {
-      display: none;
-    }
+.hidden {
+    display: none;
+}
 
-    .masthead.segment {
-      min-height: 50px;
-      padding: 1em 0em;
-    }
-    .masthead .logo.item img {
-      margin-right: 1em;
-    }
-    .masthead .ui.menu .ui.button {
-      margin-left: 0.5em;
-    }
-    .masthead h1.ui.header {
-      margin-top: 3em;
-      margin-bottom: 0em;
-      font-size: 4em;
-      font-weight: normal;
-    }
-    .masthead h2 {
-      font-size: 1.7em;
-      font-weight: normal;
-    }
+.masthead {
+    min-height: 350px;
+    padding: 1em 0em;
+    /*background: url("../assets/images/team2015.jpg");
+background-position: right;
+background-size: 100% auto;
+*/
+}
 
-    .secondary.pointing.menu .toc.item {
-      display: none;
-    }
+#homepage .main.menu > .item
+ {
+    color: white;
+}
+
 
 /*MAIN CONTENT*/
 
-#homeone, #hometwo {
-  text-align: center;
-  padding: 20px 0px;
-}
+#homeone,
 #hometwo {
-  margin:0 auto;
+    text-align: center;
+    padding: 20px 0px;
 }
 
 #hometwo {
-  padding: 20px;
+    margin: 0 auto;
 }
-#homeone p, #hometwo .description, #homethree p, #homezero p{
-  line-height: 180%;
-  font-size: 1.33em;
+
+#hometwo {
+    padding: 20px;
+}
+
+#homeone p,
+#hometwo .description,
+#homethree p,
+#homezero p {
+    line-height: 180%;
+    font-size: 1.33em;
 }
 
 #involvebtn {
-  
-  margin:0 auto;
+    margin: 0 auto;
 }
 
 #meet {
-  margin-bottom: 20px;
-
-}
-    .ui.vertical.stripe h3 {
-      font-size: 2em;
-    }
-    .ui.vertical.stripe .button + h3,
-    .ui.vertical.stripe p + h3 {
-      margin-top: 3em;
-    }
-    .ui.vertical.stripe .floated.image {
-      clear: both;
-    }
-    .ui.vertical.stripe p {
-      font-size: 1.33em;
-    }
-
-.ui.footer.segment{
-  margin-top: 5px;
+    margin-bottom: 20px;
 }
 
-    @media only screen and (max-width: 700px) {
-      .ui.fixed.menu {
-        display: none !important;
-      }
-      .secondary.pointing.menu .item,
-      .secondary.pointing.menu .menu {
-        display: none;
-      }
-      .secondary.pointing.menu .toc.item {
-        display: block;
-      }
-      .masthead.segment {
-        min-height: 350px;
-      }
-      .masthead h1.ui.header {
-        font-size: 2em;
-        margin-top: 1.5em;
-      }
-      .masthead h2 {
-        margin-top: 0.5em;
-        font-size: 1.5em;
-      }
-    }
+
+/*Footer*/
+
+footer {
+    margin-top: 2rem;
+    background-color: orange;
+    min-width: 100%;
+}
