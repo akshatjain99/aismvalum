@@ -19,4 +19,7 @@ $(function() {
     $('.ui.sidebar')
         .sidebar('attach events', '.sidebar-icon');
 
+    $('.ui.accordion')
+    .accordion();
+
 });

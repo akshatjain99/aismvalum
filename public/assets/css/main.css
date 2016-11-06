@@ -5,12 +5,33 @@ footer {
   background-color: #EDAB23; }
 
 /* Home CSS Starts Here */
+.masthead h1.ui.header {
+  margin-top: 1em;
+  font-size: 4em;
+  font-weight: normal;
+  color: #BDD2D5;
+  text-align: center; }
+
+#involvebtn {
+  text-align: center;
+  margin: 5px auto; }
+
+#events .grid {
+  margin: 5px; }
+
 /* Home CSS Ends Here */
 /* About CSS Starts Here */
 /* About CSS Ends Here */
 /* Contact CSS Starts Here */
 /* Contact CSS Ends Here */
 /* Meet CSS Starts Here */
+.ui.accordion.p {
+  display: block; }
+
+#team {
+  margin: 0 auto;
+  width: 60%; }
+
 /* Meet CSS Ends Here */
 /* Involve CSS Starts Here */
 /* Involve CSS Ends Here */
