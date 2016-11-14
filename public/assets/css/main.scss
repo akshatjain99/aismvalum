@@ -13,12 +13,6 @@
     }
 }
 
-@media screen and (min-width: 701px) {
-    .sidebar-icon {
-        display: none;
-    }
-}
-
 * {
     box-sizing: border-box;
 }
@@ -50,6 +44,13 @@ header {
     padding-left: 1rem;
     cursor: pointer;
     color: white;
+    min-height: 3.5rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 .hidden {
@@ -71,13 +72,6 @@ background-size: 100% auto;
     font-weight: normal;
     color: #D8DCDB;
     text-align: center;
-}
-
-@media screen and (max-width: 450px) {
-    .masthead .ui.header {
-        margin-top: 1.5em;
-        font-size: 2.75em;
-    }
 }
 
 .facebook.icon,
@@ -147,4 +141,29 @@ h2.ui.header > span {
 
 .bordered.users.icon {
     box-shadow: 0 0 0 1px #FFF inset;
+}
+
+@media screen and (max-width: 450px) {
+    .masthead .ui.header {
+        margin-top: 1.5em;
+        font-size: 2.75em;
+    }
+    .rectangle {
+        font-size: 1.5em;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    .sidebar-icon {
+        display: none;
+    }
+}
+.middle.aligned {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-align: center;
+    align-items: center;
 }

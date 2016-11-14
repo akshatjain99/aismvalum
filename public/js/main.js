@@ -17,7 +17,7 @@ $(function() {
 
     // create sidebar and attach to menu open
     $('.ui.sidebar')
-        .sidebar('attach events', '.sidebar-icon')
+        .sidebar('attach events', '.sidebar-icon > .sidebar.icon')
         .sidebar('setting', 'transition', 'overlay')
         .sidebar('setting', 'scrollLock', 'true');
 
