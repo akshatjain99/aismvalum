@@ -42,6 +42,7 @@ body {
 header {
     min-height: 100%;
     margin-bottom: 2rem;
+    background-color: $navy;
 }
 
 .sidebar-icon {
@@ -64,10 +65,46 @@ background-size: 100% auto;
 */
 }
 
+.masthead .ui.header {
+    margin-top: 1em;
+    font-size: 4em;
+    font-weight: normal;
+    color: #D8DCDB;
+    text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+    .masthead .ui.header {
+        margin-top: 1.5em;
+        font-size: 2.75em;
+    }
+}
+
+.facebook.icon {
+    color: #FFF;
+}
+
+.facebook.icon:hover,
+.facebook.icon:focus,
+.facebook.icon:active {
+    color: $sky;
+}
+
 
 /*Footer*/
 
 footer {
     margin-top: 2rem;
     min-width: 100%;
+    background-color: $sunflower;
+}
+
+div [class*="left floated"] {
+    float: left;
+    margin-left: 0.25em;
+}
+
+div [class*="right floated"] {
+    float: right;
+    margin-right: 0.25em;
 }
