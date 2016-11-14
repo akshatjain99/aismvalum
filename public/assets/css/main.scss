@@ -80,13 +80,17 @@ background-size: 100% auto;
     }
 }
 
-.facebook.icon {
+.facebook.icon,
+.users.icon {
     color: #FFF;
 }
 
 .facebook.icon:hover,
 .facebook.icon:focus,
-.facebook.icon:active {
+.facebook.icon:active,
+.users.icon:hover,
+.users.icon:focus,
+.users.icon:active {
     color: $sky;
 }
 
@@ -117,4 +121,30 @@ div [class*="right floated"] {
 
 h2.ui.header > span {
     border-bottom: 3px solid $sunflower;
+}
+
+.rectangle {
+    margin: 1em 0;
+    background-color: darken(#FF4b4c, 7%);
+    height: 300px;
+    height: 300px;
+    color: #FFF;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.rectangle:hover,
+.rectange:focus,
+.rectange:active {
+    background-color: $violet;
+    color: #FFF;
+}
+
+.bordered.users.icon {
+    box-shadow: 0 0 0 1px #FFF inset;
 }
