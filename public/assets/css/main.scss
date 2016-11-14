@@ -93,10 +93,12 @@ background-size: 100% auto;
 
 /*Footer*/
 
-footer {
+footer.ui.segment {
     margin-top: 2rem;
     min-width: 100%;
     background-color: $sunflower;
+    min-height: 50px;
+    border-radius: 0;
 }
 
 div [class*="left floated"] {
@@ -107,4 +109,8 @@ div [class*="left floated"] {
 div [class*="right floated"] {
     float: right;
     margin-right: 0.25em;
+}
+
+.ui.main.grid {
+    margin-top: 1rem;
 }

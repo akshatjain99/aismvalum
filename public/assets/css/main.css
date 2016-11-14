@@ -17,6 +17,9 @@
 /* About CSS Starts Here */
 /* About CSS Ends Here */
 /* Contact CSS Starts Here */
+.main.grid {
+  min-height: 400px; }
+
 /* Contact CSS Ends Here */
 /* Meet CSS Starts Here */
 .ui.accordion.p {
@@ -97,10 +100,12 @@ background-size: 100% auto;
   color: #BDD2D5; }
 
 /*Footer*/
-footer {
+footer.ui.segment {
   margin-top: 2rem;
   min-width: 100%;
-  background-color: #EDAB23; }
+  background-color: #EDAB23;
+  min-height: 50px;
+  border-radius: 0; }
 
 div [class*="left floated"] {
   float: left;
@@ -109,3 +114,6 @@ div [class*="left floated"] {
 div [class*="right floated"] {
   float: right;
   margin-right: 0.25em; }
+
+.ui.main.grid {
+  margin-top: 1rem; }
