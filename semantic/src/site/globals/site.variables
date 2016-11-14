@@ -11,3 +11,6 @@
 
 /* The size of page text  */
 @fontSize : 16px;
+
+@primaryColor: #443A6F;
+@secondaryColor: #EDAB23;
