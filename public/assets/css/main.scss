@@ -114,3 +114,7 @@ div [class*="right floated"] {
 .ui.main.grid {
     margin-top: 1rem;
 }
+
+h2.ui.header > span {
+    border-bottom: 3px solid $sunflower;
+}

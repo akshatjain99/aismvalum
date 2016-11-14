@@ -6,10 +6,6 @@
   color: #D8DCDB;
   text-align: center; }
 
-#involvebtn {
-  text-align: center;
-  margin: 5px auto; }
-
 #events .grid {
   margin: 5px; }
 
@@ -117,3 +113,6 @@ div [class*="right floated"] {
 
 .ui.main.grid {
   margin-top: 1rem; }
+
+h2.ui.header > span {
+  border-bottom: 3px solid #EDAB23; }
