@@ -19,9 +19,7 @@ $(function() {
 
     $('.sidebar-icon > .sidebar.icon').on('click', function() {
 
-        $('.ui.sidebar')
-            .sidebar('setting', 'transition', 'overlay')
-            .sidebar('toggle');
+        $('.ui.sidebar').sidebar('toggle');
 
 
     });
