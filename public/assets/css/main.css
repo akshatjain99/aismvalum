@@ -9,6 +9,11 @@
 #events .grid {
   margin: 5px; }
 
+.mentor-image {
+  height: 300px;
+  width: 300px;
+  margin-bottom: 3em; }
+
 /* Home CSS Ends Here */
 /* About CSS Starts Here */
 /* About CSS Ends Here */
@@ -21,9 +26,8 @@
 .ui.accordion.p {
   display: block; }
 
-#team {
-  margin: 0 auto;
-  width: 60%; }
+#alum15-photos {
+  margin-top: 2em; }
 
 /* Meet CSS Ends Here */
 /* Involve CSS Starts Here */
