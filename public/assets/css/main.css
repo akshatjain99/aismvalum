@@ -6,8 +6,11 @@
   color: #D8DCDB;
   text-align: center; }
 
+#events .grid .row {
+  padding: 1em; }
+
 #events .grid {
-  margin: 5px; }
+  margin-bottom: 2em; }
 
 .mentor-image {
   height: 300px;
