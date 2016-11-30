@@ -16,9 +16,15 @@ $(function() {
     //     });
 
     // create sidebar and attach to menu open
-    $('.ui.sidebar')
-        .sidebar('attach events', '.sidebar-icon > .sidebar.icon')
 
+    $('.sidebar-icon > .sidebar.icon').on('click', function() {
+
+        $('.ui.sidebar')
+            .sidebar('setting', 'transition', 'overlay')
+            .sidebar('toggle');
+
+
+    });
 
     $('.ui.accordion')
         .accordion();
